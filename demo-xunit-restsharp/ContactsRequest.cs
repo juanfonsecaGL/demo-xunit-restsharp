@@ -53,7 +53,7 @@ namespace PhoneBookTest
 
 
             var statusMsg = response.Content;
-            Assert.Equal(res, statusMsg);
+            Assert.Equal(res.ToString(), statusMsg); //YAHA
         }
 
         public void DeleteContact(string id, HttpStatusCode code)
