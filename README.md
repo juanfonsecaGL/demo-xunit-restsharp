@@ -27,3 +27,18 @@ npm start
 ```
 
 Once this is done, you can run the unit tests on the VS project.
+
+### Description of the web service
+
+This is a web service that implements a book of phone contacts.
+
+Operations:
+* Post contact
+* Get contact
+* Put contact 
+* Delete contact
+
+Example of a contact:
+```
+[{"_id":"56d5efa8c82593800291c02b","name":"Tester","mobilephone":"0552188889999","homephone":"0552133332222"}]i
+```
